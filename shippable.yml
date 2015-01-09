@@ -8,6 +8,6 @@ before_script:
   - RAILS_ENV=test bundle exec rake db:migrate
   - cd ../..
 script:
-  - CODECLIMATE_REPO_TOKEN=123 bundle exec rspec
+  - CODECLIMATE_REPO_TOKEN=b87738a51eae2d34e8b9b11b539d4515b2f2a18371a854b575011377e3e1c9bc bundle exec rspec
 notifications:
    email: false
