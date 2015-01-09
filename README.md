@@ -15,7 +15,7 @@ gem "validates_team_viewer_id"
 
 ## Usage
 
-```
+```ruby
 class Session
   validates :support_id, team_viewer_id: true
 end
